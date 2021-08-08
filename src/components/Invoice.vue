@@ -14,7 +14,7 @@
         class="status-button flex"
         :class="{
           paid: invoice.invoicePaid,
-          draft: invoiceDraft,
+          draft: invoice.invoiceDraft,
           pending: invoice.invoicePending,
         }"
       >
